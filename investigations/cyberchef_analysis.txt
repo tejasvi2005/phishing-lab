@@ -1,0 +1,18 @@
+CYBERCHEF ANALYSIS - BASE64 DECODING
+
+Encoded String (found in phishing email):
+aHR0cHM6Ly9mYWtlLXBheXBhbC5jb20vbG9naW4=
+
+Decoding Method: Base64
+Tool: CyberChef (https://gchq.github.io/CyberChef/)
+
+Decoded Result:
+https://fake-paypal.com/login
+
+Analysis:
+- Hidden URL to phishing site
+- Paypal.com replaced with fake-paypal.com
+- Used to evade email filters
+- Threat: Credential harvesting
+
+Red Flag: Any Base64-encoded URLs = SUSPICIOUS

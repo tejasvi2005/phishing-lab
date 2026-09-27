@@ -1,0 +1,23 @@
+RED FLAG 1: Sender Domain
+From: admin@microsoft-office365.net
+Real Microsoft: @microsoft.com
+Problem: Fake domain (microsoft-office365.net)
+
+RED FLAG 2: Urgent threat language
+"Password will EXPIRE TODAY"
+"immediate action required"
+"permanent deletion"
+Problem: Creates panic to click fast
+
+RED FLAG 3: Malicious URL
+https://office-365-verify.net/renew
+Real Microsoft: office365.microsoft.com or microsoft.com
+Problem: Fake domain to steal password
+
+RED FLAG 4: Generic greeting
+"Dear Office 365 User" (not personalized)
+Problem: Mass phishing campaign (not targeted)
+
+RED FLAG 5: Threat of account deletion
+"permanent deletion of your account"
+Problem: Intimidation tactic to force action

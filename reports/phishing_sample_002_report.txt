@@ -1,0 +1,29 @@
+PHISHING INCIDENT REPORT
+Report ID: PHISH-002
+Date: Sep 27, 2026
+Analyst: [Your Name]
+Severity: CRITICAL
+
+SUMMARY:
+Sophisticated phishing targeting Office 365 users.
+Credential harvesting attack impersonating Microsoft.
+
+EMAIL DETAILS:
+From: admin@microsoft-office365.net (FAKE)
+Subject: [URGENT] Your Office 365 Password Expires Today
+Malicious URL: https://office-365-verify.net/renew?session=x1y2z3
+
+RED FLAGS:
+1. Fake Microsoft domain (microsoft-office365.net ≠ microsoft.com)
+2. Password expiration threat (creates urgency)
+3. Fake renewal URL (office-365-verify.net)
+4. Generic greeting (mass campaign)
+5. Account deletion threat (intimidation)
+
+ASSESSMENT: MALICIOUS - Credential Harvesting
+
+RECOMMENDED ACTION:
+- Block domain: microsoft-office365.net
+- Block URL: office-365-verify.net
+- Alert all Office 365 users
+- Do NOT click the link

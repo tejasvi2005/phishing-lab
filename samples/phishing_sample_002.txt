@@ -1,0 +1,18 @@
+From: admin@microsoft-office365.net
+To: employee@company.com
+Subject: [URGENT] Your Office 365 Password Expires Today - Action Required
+
+Dear Office 365 User,
+
+Your Microsoft Office 365 account password will EXPIRE TODAY.
+
+You must update your password immediately to avoid account suspension.
+
+Click below to renew your password:
+
+RENEW PASSWORD NOW
+https://office-365-verify.net/renew?session=x1y2z3
+
+Failure to update will result in permanent deletion of your account.
+
+Microsoft Office 365 Support Team

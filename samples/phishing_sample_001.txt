@@ -1,0 +1,19 @@
+From: security@paypa1-verify.today
+To: user@example.com
+Subject: Urgent: Verify Your PayPal Account
+Date: Sun, 27 Sep 2026 10:15:00 +0000
+
+Dear Valued Customer,
+
+We have detected unusual activity on your PayPal account. 
+Your account access has been RESTRICTED.
+
+To restore your account, please verify your identity immediately:
+
+VERIFY ACCOUNT NOW
+https://paypa1-verify.today/login?session=abc123
+
+This action is required within 24 hours.
+
+Regards,
+PayPal Security Team

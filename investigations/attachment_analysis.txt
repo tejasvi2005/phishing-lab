@@ -1,0 +1,27 @@
+MALICIOUS ATTACHMENT ANALYSIS
+
+File Name: suspicious_invoice.zip
+File Type: ZIP Archive
+File Size: [your file size]
+
+Hash Calculation:
+Algorithm: SHA256
+Hash: 92245B4F6E63368673AC5B91F321CEC9BA45FE61D3A2FCAD802DA85997581779
+
+VirusTotal Check:
+Result: 0/61 (not in database - local test file)
+
+Real-World Scenario:
+If hash showed 20/61 or higher = MALICIOUS
+Action: DO NOT OPEN or RUN file
+
+Red Flags for Suspicious Attachments:
+✓ Unexpected attachment
+✓ File extension mismatch (.exe named as .pdf)
+✓ Macro-enabled Office files (.docm, .xlsm)
+✓ ZIP/RAR archives with executables inside
+✓ Hash detected by multiple antivirus engines
+
+Recommended Action:
+Never open attachments from unknown senders
+Always check hash on VirusTotal before opening

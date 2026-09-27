@@ -1,0 +1,26 @@
+PHISHING INCIDENT REPORT
+Report ID: PHISH-001
+Date: Sep 27, 2026
+Analyst: [Your Name]
+
+SUMMARY:
+Phishing email impersonating PayPal detected. 
+Email attempts credential harvesting via fake login portal.
+
+EMAIL DETAILS:
+From: security@paypa1-verify.today (FAKE)
+Subject: Urgent: Verify Your PayPal Account
+Malicious URL: https://paypa1-verify.today/login
+
+RED FLAGS IDENTIFIED:
+1. Sender domain is typosquatting (paypa1-verify.today ≠ paypal.com)
+2. Urgency language ("within 24 hours", "RESTRICTED")
+3. Suspicious URL pointing to fake PayPal site
+4. Generic greeting ("Dear Valued Customer")
+
+ASSESSMENT: MALICIOUS - Credential Harvesting Phishing
+
+RECOMMENDED ACTION:
+- Block sender domain
+- Do NOT click the link
+- Report to real PayPal

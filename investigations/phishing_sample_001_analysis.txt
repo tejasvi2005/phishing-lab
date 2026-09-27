@@ -1,0 +1,38 @@
+RED FLAG 1: Sender is NOT from real PayPal domain
+Real: @paypal.com
+Fake: @paypa1-verify.today
+Reason: Typosquatting (1 instead of l)
+
+RED FLAG 2: Urgency language (creates panic)
+Words: "Urgent", "RESTRICTED", "within 24 hours"
+Reason: Forces you to click fast without thinking
+
+RED FLAG 3: Suspicious URL
+Domain: paypa1-verify.today (NOT real PayPal)
+Real PayPal: paypal.com
+Reason: Fake domain to steal your login info
+
+RED FLAG 4: VirusTotal check
+Domain: paypa1-verify.today
+Result: 0/92 (because it's a fake example)
+Real phishing: Would show 20+ detections
+Reason: Shows how to identify phishing URLs in real scenarios
+
+REAL-WORLD EXAMPLE:
+Domain: paypai.com (typosquatting PayPal)
+VirusTotal Detection: 9/92 vendors
+This shows how real phishing domains are detected
+
+WHOIS CHECK:
+Domain: paypai.com
+Registrant: Moniker Privacy Services (PRIVACY PROTECTED)
+Created: 2002-08-18 (OLD domain - repurposed)
+Registrar: Moniker Online Services LLC
+RED FLAG: Privacy protection hides real owner (suspicious for phishing)
+
+IP REPUTATION CHECK:
+IP Address: 203.0.113.100
+Reports: 12 total reports
+Sources: 5 distinct reporters
+Activity: Web App Attack, DDoS, Brute Force, SSH Attack
+Conclusion: RED FLAG - Malicious IP used in phishing campaigns
